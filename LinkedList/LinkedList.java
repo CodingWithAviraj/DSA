@@ -1,11 +1,7 @@
 
-public class LinkedList {
-	
-	static Node head = null, tail = head;
-	
+public class LinkedList {	
+	static Node head = null, tail = head;	
 	public static void main(String[] args) {
-	
-   
          Node first = AddFirst(1);
          Node second = AddFirst(2);  
          print();
@@ -63,8 +59,6 @@ public class LinkedList {
 	     }
 		return newNode;
 	}
-	
-
 }
 
 class Node{
@@ -76,10 +70,7 @@ class Node{
 		next = null;
 	}
 }
-
-
 //output
 //2-> 1
 //2-> 1-> 3-> 4
 //2-> 1-> 3-> 5-> 4
-
